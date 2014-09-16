@@ -13,16 +13,7 @@
     <script type="text/javascript" src="js/jssor.core.js"></script>
     <script type="text/javascript" src="js/jssor.utils.js"></script>
     <script type="text/javascript" src="js/jssor.slider.js"></script>
-	<!-- Colorbox integration -->
-	<link rel="stylesheet" href="../css/colorbox.css">
-	<script src="../js/jquery.colorbox.js"></script>
-	
     <script>
-		<!-- Colorbox Script -- >
-		$(document).ready(function(){
-			$(".art").colorbox({rel:'art'});
-			$(".pic").colorbox({rel:'pic'});
-		});
 		
 		<!-- SLideshow Script -->
         jQuery(document).ready(function ($) {
@@ -117,7 +108,7 @@
             function ScaleSlider() {
                 var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
                 if (parentWidth)
-                    jssor_slider1.$SetScaleWidth(Math.max(Math.min(parentWidth, 950), 300));
+                    jssor_slider1.$SetScaleWidth(Math.max(Math.min(parentWidth, 900), 300));
                 else
                     window.setTimeout(ScaleSlider, 30);
             }
@@ -136,7 +127,7 @@
     </script>
     <!-- Jssor Slider Begin -->
     <!-- You can move inline styles to css file or css block. -->
-    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 950px;
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 900px;
         height: 456px; background: #000000; overflow: hidden;">
 
         <!-- Loading Screen -->
@@ -150,54 +141,54 @@
         </div>
 
         <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 950px; height: 356px; overflow: hidden;">
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 356px; overflow: hidden;">
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/01.jpg" />
+                <img href="img/alila/01.jpg" u="image" src="img/alila/01.jpg" />
                 <img u="thumb" src="img/alila/thumb-01.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/02.jpg" />
+                <img href="img/alila/02.jpg" u="image" src="img/alila/02.jpg" />
                 <img u="thumb" src="img/alila/thumb-02.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/03.jpg" />
+                <img href="img/alila/03.jpg" u="image" src="img/alila/03.jpg" />
                 <img u="thumb" src="img/alila/thumb-03.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/04.jpg" />
+                <img href="img/alila/04.jpg" u="image" src="img/alila/04.jpg" />
                 <img u="thumb" src="img/alila/thumb-04.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/05.jpg" />
+                <img href="img/alila/05.jpg" u="image" src="img/alila/05.jpg" />
                 <img u="thumb" src="img/alila/thumb-05.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/06.jpg" />
+                <img href="img/alila/06.jpg" u="image" src="img/alila/06.jpg" />
                 <img u="thumb" src="img/alila/thumb-06.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/07.jpg" />
+                <img href="img/alila/07.jpg" u="image" src="img/alila/07.jpg" />
                 <img u="thumb" src="img/alila/thumb-07.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/08.jpg" />
+                <img href="img/alila/08.jpg" u="image" src="img/alila/08.jpg" />
                 <img u="thumb" src="img/alila/thumb-08.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/09.jpg" />
+                <img href="img/alila/09.jpg" u="image" src="img/alila/09.jpg" />
                 <img u="thumb" src="img/alila/thumb-09.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/10.jpg" />
+                <img href="img/alila/10.jpg" u="image" src="img/alila/10.jpg" />
                 <img u="thumb" src="img/alila/thumb-10.jpg" />
             </div>
             
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/11.jpg" />
+                <img href="img/alila/11.jpg" u="image" src="img/alila/11.jpg" />
                 <img u="thumb" src="img/alila/thumb-11.jpg" />
             </div>
             <div>
-                <img class="art" href="img/alila/01.jpg" u="image" src="img/alila/12.jpg" />
+                <img href="img/alila/12.jpg" u="image" src="img/alila/12.jpg" />
                 <img u="thumb" src="img/alila/thumb-12.jpg" />
             </div>
         </div>
@@ -237,7 +228,7 @@
         <!-- Arrow Navigator Skin End -->
         
         <!-- Thumbnail Navigator Skin Begin -->
-        <div u="thumbnavigator" class="jssort01" style="position: absolute; width: 950px; height: 100px; left:0px; bottom: 0px;">
+        <div u="thumbnavigator" class="jssort01" style="position: absolute; width: 900px; height: 100px; left:0px; bottom: 0px;">
             <!-- Thumbnail Item Skin Begin -->
             <style>
                 /* jssor slider thumbnail navigator skin 01 css */

@@ -1,6 +1,14 @@
 ###Smockish Changes
 This file contains change information of the current and previous release of Smockish.
 
+v0.1.4
+-Fixed emailform alignment issues.
+-Search bar event added to reset value once focus is lost.
+-Modified site/slideshow width and style to accommodate lower resolution screens.
+-Search Bar loose functionality added.
+-removed colorbox integration with image gallery due to iframe error.
+-Validation messages added.
+
 v0.1.3
 -Code validation fix, clean up and tidying.
 -Integrate colorbox functionality with image gallery.
